@@ -41,7 +41,7 @@ def main():
     mode.add_argument(
         "--ratings-only",
         action="store_true",
-        help="Only calculate rating recommendations and run the interactive user evaluation.",
+        help="Only calculate rating recommendations.",
     )
 
     parser.add_argument(
